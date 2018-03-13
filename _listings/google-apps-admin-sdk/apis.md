@@ -10,29 +10,17 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: ""
 tags:
-- Subscription
 - Stack Network
 - SDK
 - Resellers
 - Reseller
-- Report
-- Register
-- Notification
 - Monetization
 - Licensing
-- LicenseSubscription
-- License
-- Group
 - Google APIs
-- Free Trial
 - Documents
-- Customer
-- Channel
-- Archive
 - Applications
-- Activities
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/google-apps-admin-sdk/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -44,7 +32,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-watch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-get.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
