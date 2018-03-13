@@ -8,61 +8,12 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: ""
 tags:
-- Watermarks
 - Videos
-- Veos
-- Veocategories
-- Veoabusereportreasons
-- V1
-- Unset
-- Transition
-- Thumbnails
-- Superchatevents
-- Subscriptions
 - Stack Network
 - Stack
-- Sponsors
-- Setmoderationstatus
-- Set
-- Search
-- Resourcename
-- Reporttypes
-- Reports
-- Reportabuse
-- Report
-- Regions
-- Rate
-- Playlists
-- Playlistitems
-- Moderators
-- Messages
-- Media
-- Markasspam
-- Livestreams
-- Livechat
-- Livebroadcasts
-- Languages
-- Jobs
-- Job
-- Insert
-- Guecategories
-- Groups
-- Groupitems
 - Google APIs
-- Getrating
-- Fanfundingevents
-- Control
-- Commentthreads
-- Comments
-- Channelsections
-- Channels
-- Channelbanners
-- Captions
-- Bind
-- Bans
-- Activities
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -75,7 +26,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/youtube/activities-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/youtube/activities-get.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
