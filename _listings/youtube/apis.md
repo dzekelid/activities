@@ -26,7 +26,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/youtube/activities-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/youtube/activities-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
