@@ -7,29 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "9"
 x-alexaRank: ""
 tags:
-- Users
-- Tokens
 - Stack Network
-- Search Request
-- Relationships
-- Org Chart
-- Notifications
-- Networks
 - Microsoft
 - Messaging
-- Messages Likedcurrent User
-- Messages
 - Media
-- Invites
-- Groups
-- Follows
-- Data
 - Chat
 - Bots
-- Activity
-- Activities
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/yammer/apis.yaml
 specificationVersion: "0.14"
 apis:
