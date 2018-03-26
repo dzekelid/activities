@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeScalingActivities&k=1:
+  /?Action=DescribeScalingActivities:
     get:
       summary: ' Describe Scaling Activities '
       description: Describes one or more scaling activities for the specified Auto
