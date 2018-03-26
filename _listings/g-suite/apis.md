@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Google APIs
 - Documents
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/g-suite/apis.yaml
+created: "2018-03-26"
+modified: "2018-03-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: G Suite Activity API
@@ -25,7 +25,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/g-suite/activities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/
