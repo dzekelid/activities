@@ -17,9 +17,9 @@ tags:
 - Deployment
 - Compute
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/aws-auto-scaling/apis.yaml
+created: "2018-03-26"
+modified: "2018-03-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Auto Scaling API
@@ -32,7 +32,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
