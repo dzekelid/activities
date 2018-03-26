@@ -19,9 +19,9 @@ tags:
 - Google APIs
 - Documents
 - Applications
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/google-apps-admin-sdk/apis.yaml
+created: "2018-03-26"
+modified: "2018-03-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Apps Admin SDK API
@@ -32,7 +32,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-watch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-get.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
