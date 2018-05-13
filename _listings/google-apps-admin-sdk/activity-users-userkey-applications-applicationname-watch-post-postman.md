@@ -1,0 +1,1 @@
+{"Success":false,"Errors":["The given API description does not appear to be compatible with Swagger v2.0 (JSON) format -> Unable to parse the specified JSON/YAML: Accessed JArray values with invalid key value: \"holder\". Int32 array index expected."],"Warnings":[],"Messages":[]}
