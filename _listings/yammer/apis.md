@@ -46,7 +46,7 @@ apis:
   description: Get View Activities
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
-  baseURL: ://example.com//
+  baseURL: http:://example.com//
   tags: Activities
   properties:
   - type: x-openapi-spec
@@ -54,6 +54,32 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/yammer/yamuri-streams-activities-json-get-postman.md
 x-common:
+- type: x-website
+  url: http://developer.yammer.com
+- type: x-blog
+  url: http://blog.yammer.com
+- type: x-blog-rss
+  url: http://blog.yammer.com/blog/feed
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/yammer
+- type: x-documentation
+  url: https://developer.yammer.com/docs
+- type: x-embeddable
+  url: https://developer.yammer.com/docs/embed
+- type: x-forum
+  url: https://techcommunity.microsoft.com/t5/Yammer/ct-p/Yammer
+- type: x-github
+  url: https://github.com/yammer
+- type: x-partners
+  url: https://developer.yammer.com/v1.0/docs/yammer-partners
+- type: x-status
+  url: http://status.yammer.com/
+- type: x-support
+  url: https://developer.yammer.com/v1.0/page/support
+- type: x-terms-of-service
+  url: https://about.yammer.com/terms/
+- type: x-twitter
+  url: https://twitter.com/yammer
 - type: x-website
   url: http://developer.yammer.com
 - type: x-blog
