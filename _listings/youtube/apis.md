@@ -17,26 +17,6 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Youtube
-  description: YouTube allows billions of people to discover, watch and share originally-created
-    videos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
-- name: Youtube
-  description: YouTube allows billions of people to discover, watch and share originally-created
-    videos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
 - name: Youtube Add Activities
   description: |-
     Posts a bulletin for a specific channel. (The user submitting the request must be authorized to act on the channel's behalf.)
