@@ -40,8 +40,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get-postman.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
