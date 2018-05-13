@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Apps Admin SDK Merged API
+  title: Google Apps Admin SDK API Change Activity
   version: 1.0.0
+  description: Push changes to activities
 schemes:
 - http
 produces:
