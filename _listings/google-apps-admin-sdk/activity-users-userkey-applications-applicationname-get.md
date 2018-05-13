@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Apps Admin SDK Merged API
+  title: Google Apps Admin SDK API Get Activities
   version: 1.0.0
+  description: Retrieves a list of activities for a specific customer and application.
 schemes:
 - http
 produces:

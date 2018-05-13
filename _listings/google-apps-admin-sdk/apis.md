@@ -90,6 +90,14 @@ x-common:
   url: https://code.google.com/a/google.com/p/apps-api-issues/issues/list?q=label:API-Apps
 - type: x-website
   url: https://developers.google.com/admin-sdk/
+- type: x-blog
+  url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
+- type: x-blog-rss
+  url: https://gsuite-developers.googleblog.com/feeds/posts/default?alt=rss
+- type: x-issues
+  url: https://code.google.com/a/google.com/p/apps-api-issues/issues/list?q=label:API-Apps
+- type: x-website
+  url: https://developers.google.com/admin-sdk/
 include: []
 maintainers:
 - FN: Kin Lane

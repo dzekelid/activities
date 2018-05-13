@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: G Suite Activity
-  description: Provides a historical view of activity.
+  title: G Suite Activity API Get Activity
+  description: Returns a list of activities visible to the current logged in user.
+    Visible activities are determined by the visiblity settings of the object that
+    was acted on, e.g. Drive files a user can see. An activity is a record of past
+    events. Multiple events may be merged if they are similar. A request is scoped
+    to activities from a given Google service using the source parameter.
   contact:
     name: Google
     url: https://google.com

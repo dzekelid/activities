@@ -282,6 +282,42 @@ x-common:
   url: https://www.youtube.com/
 - type: x-widgets
   url: https://developers.google.com/youtube/youtube_upload_widget
+- type: x-articles
+  url: https://developers.google.com/youtube/articles/
+- type: x-authentication
+  url: https://developers.google.com/youtube/v3/guides/authentication
+- type: x-blog
+  url: https://youtube-eng.googleblog.com/
+- type: x-blog-rss
+  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
+- type: x-branding
+  url: https://developers.google.com/youtube/branding_guidelines
+- type: x-bug-report
+  url: https://code.google.com/p/gdata-issues/issues/entry
+- type: x-bug-report
+  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
+- type: x-buttons
+  url: https://developers.google.com/youtube/youtube_subscribe_button
+- type: x-deprecation-policy
+  url: https://developers.google.com/youtube/youtube-api-list
+- type: x-developer
+  url: https://developers.google.com/youtube/
+- type: x-getting-started
+  url: https://developers.google.com/youtube/v3/getting-started
+- type: x-github
+  url: https://github.com/youtube
+- type: x-github
+  url: https://github.com/youtube/
+- type: x-terms-of-service
+  url: https://developers.google.com/youtube/terms
+- type: x-training
+  url: https://developers.google.com/youtube/training/
+- type: x-twitter
+  url: https://twitter.com/YouTubeDev
+- type: x-website
+  url: https://www.youtube.com/
+- type: x-widgets
+  url: https://developers.google.com/youtube/youtube_upload_widget
 include: []
 maintainers:
 - FN: Kin Lane

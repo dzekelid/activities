@@ -173,6 +173,26 @@ x-common:
   url: http://status.aws.amazon.com/
 - type: x-website
   url: https://aws.amazon.com/autoscaling/
+- type: x-articles
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
+- type: x-change-log
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=86
+- type: x-code
+  url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=85
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/autoscaling/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AutoScaling/latest/APIReference/
+- type: x-forum
+  url: http://developer.amazonwebservices.com/connect/forum.jspa?forumID=30
+- type: x-getting-started
+  url: https://aws.amazon.com/autoscaling/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/autoscaling/pricing/
+- type: x-service-health
+  url: http://status.aws.amazon.com/
+- type: x-website
+  url: https://aws.amazon.com/autoscaling/
 include: []
 maintainers:
 - FN: Kin Lane

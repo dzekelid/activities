@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Pinpoint API
+  title: AWS Pinpoint API Campaign Activities
   version: 1.0.0
+  description: Returns information about the activity performed by a campaign, such
+    as the time during which the campaign ran and the number of endpoints to which
+    it delivered messages. You can use this resource to look up activity information
+    by app ID and campaign ID.
 schemes:
 - http
 produces:
