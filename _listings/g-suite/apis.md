@@ -93,6 +93,18 @@ x-common:
   url: https://twitter.com/gsuitedevs
 - type: x-website
   url: https://developers.google.com/google-apps/
+- type: x-blog
+  url: https://gsuite-developers.googleblog.com/
+- type: x-blog-rss
+  url: http://googleappdsdeveloper.blogspot.com/atom.xml
+- type: x-documentation
+  url: https://developers.google.com/google-apps/activity/
+- type: x-newsletter
+  url: https://developers.google.com/google-apps/newsletters/
+- type: x-twitter
+  url: https://twitter.com/gsuitedevs
+- type: x-website
+  url: https://developers.google.com/google-apps/
 include: []
 maintainers:
 - FN: Kin Lane
