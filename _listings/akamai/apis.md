@@ -42,7 +42,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-aggregate-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
