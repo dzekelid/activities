@@ -49,17 +49,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
-- name: Youtube Parameters Activities
-  description: Parameters activities
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
