@@ -40,7 +40,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get.md
+- name: AWS Pinpoint API
+  description: Amazon Pinpoint makes it easy to run targeted campaigns to drive user
+    engagement in mobile apps
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: ""
+  baseURL: :///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get.md
 x-common:
+- type: x-blog
+  url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/pinpoint/latest/apireference/welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/pinpoint/faqs/
+- type: x-pricing
+  url: https://aws.amazon.com/pinpoint/pricing/
+- type: x-website
+  url: https://aws.amazon.com/pinpoint/
 - type: x-blog
   url: https://aws.amazon.com/blogs/aws/amazon-pinpoint-hit-your-targets-with-aws/
 - type: x-documentation
