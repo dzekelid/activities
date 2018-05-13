@@ -38,7 +38,7 @@ apis:
   description: Report DNS Activity Time Series
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
-  baseURL: https://developer.akamai.com//
+  baseURL: https:///
   tags: Activities
   properties:
   - type: x-openapi-spec
