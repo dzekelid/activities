@@ -27,7 +27,7 @@ apis:
     group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
-  baseURL: :///
+  baseURL: http:://{host}//
   tags: Activities
   properties:
   - type: x-openapi-spec
