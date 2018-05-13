@@ -43,12 +43,26 @@ apis:
 
     Note: Even though an activity resource can contain information about actions like a user rating a video or marking a video as a favorite, you need to use other API methods to generate those activity resources. For example, you would use the API's videos.rate() method to rate a video and the playlistItems.insert() method to mark a video as a favorite.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
+  humanURL: ""
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Activities
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
+- name: Youtube Get Activities
+  description: Returns a list of channel activity events that match the request criteria.
+    For example, you can retrieve events associated with a particular channel, events
+    associated with the user's subscriptions and Google+ friends, or the YouTube home
+    page feed, which is customized for each user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
