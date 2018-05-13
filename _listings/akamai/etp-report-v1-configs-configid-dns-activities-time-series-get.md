@@ -16,23 +16,23 @@ paths:
       description: Report DNS Activity Time Series
       operationId: etpreportv1configsconfigiddnsactivitiestimeseriesstarttimesecendtimesecdimensionfilters
       parameters:
-      - in: Number
+      - in: query
         name: configId
         description: ETP Configuration identifier assigned to the customer
         type: string
-      - in: String
+      - in: query
         name: dimension
         description: Flag to group the data
         type: string
-      - in: Number
+      - in: query
         name: endTimeSec
         description: Timestamp for the end of the data window, in UTC seconds format
         type: string
-      - in: String
+      - in: query
         name: filters
         description: filter parameters to filter the data
         type: string
-      - in: Number
+      - in: query
         name: startTimeSec
         description: Timestamp for the start of the data window, in UTC seconds format
         type: string
