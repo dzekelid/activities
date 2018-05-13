@@ -46,7 +46,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get-postman.md
+- name: Expedia Infosite/Details
+  description: Lx Details Search
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
+  humanURL: ""
+  baseURL: https://apim.expedia.com/x/
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get-postman.md
 x-common:
+- type: x-base
+  url: http://api.ean.com
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/expedia
+- type: x-documentation
+  url: https://www.expedia.com/static/mobile/swaggerui/
+- type: x-github
+  url: https://github.com/Expedia
+- type: x-swagger--original
+  url: https://www.expedia.com/static/mobile/swaggerui/swagger.json
+- type: x-twitter
+  url: https://twitter.com/ExpediaEAN
+- type: x-website
+  url: http://developer.ean.com/
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase
