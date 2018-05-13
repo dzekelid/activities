@@ -43,23 +43,12 @@ apis:
 
     Note: Even though an activity resource can contain information about actions like a user rating a video or marking a video as a favorite, you need to use other API methods to generate those activity resources. For example, you would use the API's videos.rate() method to rate a video and the playlistItems.insert() method to mark a video as a favorite.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
-- name: Youtube Parameters Activities
-  description: Parameters activities
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
