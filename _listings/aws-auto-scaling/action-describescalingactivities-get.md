@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Auto Scaling API
+  title: AWS Auto Scaling API Describe Scaling Activities
   version: 1.0.0
+  description: Describes one or more scaling activities for the specified Auto Scaling
+    group.
 schemes:
 - http
 produces:
