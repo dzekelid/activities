@@ -34,7 +34,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-aggregate-get.md
+- name: Akamai API Report DNS Activity Time Series
+  description: Report DNS Activity Time Series
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
+  humanURL: ""
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get.md
 x-common:
+- type: x-base
+  url: https://api.ccu.akamai.com
+- type: x-blog
+  url: https://blogs.akamai.com
+- type: x-blog-rss
+  url: http://blogs.akamai.com/feeds.html
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/akamai-technologies
+- type: x-developer
+  url: https://developer.akamai.com/
+- type: x-email
+  url: open-developer@akamai.com
+- type: x-github
+  url: https://github.com/akamai
+- type: x-twitter
+  url: https://twitter.com/Akamai
+- type: x-website
+  url: https://akamai.com
 - type: x-base
   url: https://api.ccu.akamai.com
 - type: x-blog
