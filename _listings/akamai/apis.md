@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-26"
-modified: "2018-03-26"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,9 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-aggregate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get-postman.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
