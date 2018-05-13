@@ -28,8 +28,8 @@ apis:
 - name: Akamai API Report DNS Activities Totals
   description: Report DNS Activities Totals
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
-  humanURL: ""
-  baseURL: https:///
+  humanURL: https://akamai.com
+  baseURL: https://developer.akamai.com//
   tags: Activities
   properties:
   - type: x-openapi-spec
@@ -38,7 +38,7 @@ apis:
   description: Report DNS Activity Time Series
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
-  baseURL: https://developer.akamai.com//
+  baseURL: https:///
   tags: Activities
   properties:
   - type: x-openapi-spec
