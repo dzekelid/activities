@@ -42,15 +42,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-watch-post.md
-- name: Google Apps Admin SDK API Get Activities
-  description: Retrieves a list of activities for a specific customer and application.
+- name: Google Apps Admin SDK API Change Activity
+  description: Push changes to activities
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
   humanURL: ""
   baseURL: https:///
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-watch-post.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
