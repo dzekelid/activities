@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai API
-  description: The Akamai API for managing your Akamai service.
+  title: Akamai API Report DNS Activities Totals
+  description: Report DNS Activities Totals
   version: 1.0.0
 host: developer.akamai.com
 basePath: /
