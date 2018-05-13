@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-03-26"
-modified: "2018-03-26"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,9 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
