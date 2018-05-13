@@ -41,7 +41,7 @@ apis:
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/google-apps-admin-sdk/activity-users-userkey-applications-applicationname-watch-post.md
 x-common:
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/search/label/Admin%20SDK
