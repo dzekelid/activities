@@ -24,7 +24,7 @@ apis:
     events. Multiple events may be merged if they are similar. A request is scoped
     to activities from a given Google service using the source parameter.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-g-suite.png
-  humanURL: ""
+  humanURL: https://developers.google.com/google-apps/
   baseURL: ://www.googleapis.com//appsactivity/v1
   tags: Activities
   properties:
@@ -33,6 +33,18 @@ apis:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get-postman.md
 x-common:
+- type: x-blog
+  url: https://gsuite-developers.googleblog.com/
+- type: x-blog-rss
+  url: http://googleappdsdeveloper.blogspot.com/atom.xml
+- type: x-documentation
+  url: https://developers.google.com/google-apps/activity/
+- type: x-newsletter
+  url: https://developers.google.com/google-apps/newsletters/
+- type: x-twitter
+  url: https://twitter.com/gsuitedevs
+- type: x-website
+  url: https://developers.google.com/google-apps/
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/
 - type: x-blog-rss
