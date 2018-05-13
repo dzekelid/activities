@@ -17,8 +17,8 @@ tags:
 - Deployment
 - Compute
 - Amazon Web Services
-created: "2018-03-26"
-modified: "2018-03-26"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,6 +33,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get-postman.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
