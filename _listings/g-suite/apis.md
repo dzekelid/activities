@@ -39,7 +39,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get-postman.md
+- name: G Suite Activity API Get Activity
+  description: Returns a list of activities visible to the current logged in user.
+    Visible activities are determined by the visiblity settings of the object that
+    was acted on, e.g. Drive files a user can see. An activity is a record of past
+    events. Multiple events may be merged if they are similar. A request is scoped
+    to activities from a given Google service using the source parameter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-g-suite.png
+  humanURL: ""
+  baseURL: ://www.googleapis.com//appsactivity/v1
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get-postman.md
 x-common:
+- type: x-blog
+  url: https://gsuite-developers.googleblog.com/
+- type: x-blog-rss
+  url: http://googleappdsdeveloper.blogspot.com/atom.xml
+- type: x-documentation
+  url: https://developers.google.com/google-apps/activity/
+- type: x-newsletter
+  url: https://developers.google.com/google-apps/newsletters/
+- type: x-twitter
+  url: https://twitter.com/gsuitedevs
+- type: x-website
+  url: https://developers.google.com/google-apps/
 - type: x-blog
   url: https://gsuite-developers.googleblog.com/
 - type: x-blog-rss
