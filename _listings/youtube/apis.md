@@ -49,20 +49,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
-- name: Youtube Get Activities
-  description: Returns a list of channel activity events that match the request criteria.
-    For example, you can retrieve events associated with a particular channel, events
-    associated with the user's subscriptions and Google+ friends, or the YouTube home
-    page feed, which is customized for each user.
+- name: Youtube Parameters Activities
+  description: Parameters activities
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: ""
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
