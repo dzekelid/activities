@@ -30,26 +30,6 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: AWS Pinpoint API
-  description: Amazon Pinpoint makes it easy to run targeted campaigns to drive user
-    engagement in mobile apps
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
-  humanURL: ""
-  baseURL: :///
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get.md
-- name: AWS Pinpoint API
-  description: Amazon Pinpoint makes it easy to run targeted campaigns to drive user
-    engagement in mobile apps
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
-  humanURL: ""
-  baseURL: :///
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apps-application-id-campaigns-campaign-id-activities-get.md
 - name: AWS Pinpoint API Campaign Activities
   description: Returns information about the activity performed by a campaign, such
     as the time during which the campaign ran and the number of endpoints to which

@@ -24,28 +24,6 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Expedia
-  description: Expedia
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
-  humanURL: ""
-  baseURL: https://apim.expedia.com/x/
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get-postman.md
-- name: Expedia
-  description: Expedia
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
-  humanURL: ""
-  baseURL: https://apim.expedia.com/x/
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/expedia/lx-api-activity-get-postman.md
 - name: Expedia Infosite/Details
   description: Lx Details Search
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png

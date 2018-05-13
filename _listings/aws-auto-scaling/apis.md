@@ -22,29 +22,7 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: AWS Auto Scaling API
-  description: Auto Scaling helps you maintain application availability and allows
-    you to scale yournbsp;Amazon EC2nbsp;capacity up or down automatically according
-    to conditions you define
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
-  humanURL: ""
-  baseURL: :///
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get.md
-- name: AWS Auto Scaling API
-  description: Auto Scaling helps you maintain application availability and allows
-    you to scale yournbsp;Amazon EC2nbsp;capacity up or down automatically according
-    to conditions you define
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
-  humanURL: ""
-  baseURL: :///
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/action-describescalingactivities-get.md
-- name: 'AWS Auto Scaling API  Describe Scaling Activities '
+- name: 'AWS Auto Scaling API Describe Scaling Activities'
   description: Describes one or more scaling activities for the specified Auto Scaling
     group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png

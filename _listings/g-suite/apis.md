@@ -17,28 +17,6 @@ modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: G Suite Activity API
-  description: The collection of Google applications as one suite
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-g-suite.png
-  humanURL: ""
-  baseURL: ://www.googleapis.com//appsactivity/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get-postman.md
-- name: G Suite Activity API
-  description: The collection of Google applications as one suite
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-g-suite.png
-  humanURL: ""
-  baseURL: ://www.googleapis.com//appsactivity/v1
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/g-suite/activities-get-postman.md
 - name: G Suite Activity API Get Activity
   description: Returns a list of activities visible to the current logged in user.
     Visible activities are determined by the visiblity settings of the object that
