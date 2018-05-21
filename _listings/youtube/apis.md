@@ -1,5 +1,6 @@
 ---
 name: YouTube
+x-slug: youtube
 description: YouTube allows billions of people to discover, watch and share originally-created
   videos. YouTube provides a forum for people to connect, inform, and inspire others
   across the globe and acts as a distribution platform for original content creators
@@ -7,281 +8,66 @@ description: YouTube allows billions of people to discover, watch and share orig
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Videos
-- Stack Network
-- Stack
-- Google APIs
-created: "2018-05-12"
-modified: "2018-05-12"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/apis.yaml
+tags: Activities
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Youtube Get Activities
+  x-api-slug: youtube
+  description: Returns a list of channel activity events that match the request criteria.
+    For example, you can retrieve events associated with a particular channel, events
+    associated with the user's subscriptions and Google+ friends, or the YouTube home
+    page feed, which is customized for each user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1//activities
+  tags: Activities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-get-openapi.md
+- name: Youtube Parameters Activities
+  x-api-slug: youtube
+  description: Parameters activities
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1//activities
+  tags: Activities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-parameters-openapi.md
 - name: Youtube Add Activities
+  x-api-slug: youtube
   description: |-
     Posts a bulletin for a specific channel. (The user submitting the request must be authorized to act on the channel's behalf.)
 
     Note: Even though an activity resource can contain information about actions like a user rating a video or marking a video as a favorite, you need to use other API methods to generate those activity resources. For example, you would use the API's videos.rate() method to rate a video and the playlistItems.insert() method to mark a video as a favorite.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1//activities
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post-openapi.md
+- name: Youtube
+  x-api-slug: youtube
+  description: YouTube allows billions of people to discover, watch and share originally-created
+    videos. YouTube provides a forum for people to connect, inform, and inspire others
+    across the globe and acts as a distribution platform for original content creators
+    and advertisers large and small.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Activities
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/activities-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/youtube/openapi.md
 x-common:
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
-- type: x-articles
-  url: https://developers.google.com/youtube/articles/
-- type: x-authentication
-  url: https://developers.google.com/youtube/v3/guides/authentication
-- type: x-blog
-  url: https://youtube-eng.googleblog.com/
-- type: x-blog-rss
-  url: https://youtube-eng.googleblog.com/feeds/posts/default?alt=rss
-- type: x-branding
-  url: https://developers.google.com/youtube/branding_guidelines
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/entry
-- type: x-bug-report
-  url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
-- type: x-buttons
-  url: https://developers.google.com/youtube/youtube_subscribe_button
-- type: x-deprecation-policy
-  url: https://developers.google.com/youtube/youtube-api-list
-- type: x-developer
-  url: https://developers.google.com/youtube/
-- type: x-getting-started
-  url: https://developers.google.com/youtube/v3/getting-started
-- type: x-github
-  url: https://github.com/youtube
-- type: x-github
-  url: https://github.com/youtube/
-- type: x-terms-of-service
-  url: https://developers.google.com/youtube/terms
-- type: x-training
-  url: https://developers.google.com/youtube/training/
-- type: x-twitter
-  url: https://twitter.com/YouTubeDev
-- type: x-website
-  url: https://www.youtube.com/
-- type: x-widgets
-  url: https://developers.google.com/youtube/youtube_upload_widget
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
 - type: x-authentication
