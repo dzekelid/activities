@@ -19,10 +19,10 @@ description: Amazon Pinpoint makes it easy to run targeted campaigns to drive us
   so you can start small and scale as your application grows.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Activities
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apis.md
 specificationVersion: "0.14"
 apis:

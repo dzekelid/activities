@@ -74,16 +74,6 @@ paths:
           description: OK
       tags:
       - Activities
-    parameters:
-      summary: Parameters Activities
-      description: Parameters activities
-      operationId: parametersActivities
-      x-api-path-slug: activities-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activities
     post:
       summary: Add Activities
       description: |-

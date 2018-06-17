@@ -4,7 +4,7 @@ x-collection-name: Fitbit
 x-complete: 1
 info:
   title: Fitbit
-  description: bring-fitbit-health-data-into-your-apps-including-user-activities-sleep-heart-glucose-and-blood-pressure-information
+  description: bring-fitbit-health-data-into-your-apps-including-user-activities-sleep-heart-glucose-and-blood-pressure-information-
   version: 1.0.0
 host: api.fitbit.com
 basePath: /1
@@ -22,7 +22,7 @@ paths:
         in the format requested. If activity has levels, also get list of activity
         level details.
       operationId: getActivities.json
-      x-api-path-slug: activitiesidjson-get
+      x-api-path-slug: activitiesid-json-get
       responses:
         200:
           description: OK
@@ -36,7 +36,7 @@ paths:
         catalog as well as private custom activities the user created in the format
         requested. If activity has levels, also get a list of activity level details.
       operationId: getActivities.json
-      x-api-path-slug: activitiesjson-get
+      x-api-path-slug: activities-json-get
       responses:
         200:
           description: OK
@@ -49,7 +49,7 @@ paths:
         using units in the unit system which corresponds to the Accept-Language header
         provided.
       operationId: getUserActivitiesGoalsWeekly.json
-      x-api-path-slug: useractivitiesgoalsweeklyjson-get
+      x-api-path-slug: useractivitiesgoalsweekly-json-get
       responses:
         200:
           description: OK
@@ -66,7 +66,7 @@ paths:
         using units in the unit system which corresponds to the Accept-Language header
         provided.
       operationId: getUserActivitiesGoalsDaily.json
-      x-api-path-slug: useractivitiesgoalsdailyjson-get
+      x-api-path-slug: useractivitiesgoalsdaily-json-get
       responses:
         200:
           description: OK
@@ -82,7 +82,7 @@ paths:
       description: Delete the activity with the given id from user's list of favorite
         activities.
       operationId: deleteUserActivitiesLogFavorite.json
-      x-api-path-slug: useractivitieslogfavoriteidjson-delete
+      x-api-path-slug: useractivitieslogfavoriteid-json-delete
       responses:
         200:
           description: OK
@@ -98,7 +98,7 @@ paths:
       description: Adds the activity with the given id to user's list of favorite
         activities.
       operationId: postUserActivitiesLogFavorite.json
-      x-api-path-slug: useractivitieslogfavoriteidjson-post
+      x-api-path-slug: useractivitieslogfavoriteid-json-post
       responses:
         200:
           description: OK
@@ -117,7 +117,7 @@ paths:
         ids in the list can be used to create a new activity log entry via the Log
         Activity.
       operationId: getUserActivitiesFavorite.json
-      x-api-path-slug: useractivitiesfavoritejson-get
+      x-api-path-slug: useractivitiesfavorite-json-get
       responses:
         200:
           description: OK
@@ -136,7 +136,7 @@ paths:
         be used to log the activity via the Log Activity with the same or adjusted
         values for distance and duration.
       operationId: getUserActivitiesFrequent.json
-      x-api-path-slug: useractivitiesfrequentjson-get
+      x-api-path-slug: useractivitiesfrequent-json-get
       responses:
         200:
           description: OK
@@ -155,7 +155,7 @@ paths:
         be used to log the activity via the Log Activity with the same or adjusted
         values for distance and duration.
       operationId: getUserActivitiesRecent.json
-      x-api-path-slug: useractivitiesrecentjson-get
+      x-api-path-slug: useractivitiesrecent-json-get
       responses:
         200:
           description: OK
@@ -172,7 +172,7 @@ paths:
         the format requested using units in the unit system which corresponds to the
         Accept-Language header provided.
       operationId: getUserUserActivitiesCaloriesDateStartDateOrEndDateEndDateOrPeriod.json
-      x-api-path-slug: useruseridactivitiescaloriesdatestartdateorenddateenddateorperiodjson-get
+      x-api-path-slug: useruseridactivitiescaloriesdatestartdateorenddateenddateorperiod-json-get
       responses:
         200:
           description: OK
@@ -189,7 +189,7 @@ paths:
       summary: Delete User Activities Activity Log .json
       description: Delete user's activity log entry with the given id.
       operationId: deleteUserActivitiesActivityLog.json
-      x-api-path-slug: useractivitiesactivitylogidjson-delete
+      x-api-path-slug: useractivitiesactivitylogid-json-delete
       responses:
         200:
           description: OK
@@ -207,7 +207,7 @@ paths:
         numbers including the manual activity log entries as seen on the Fitbit website
         dashboard.
       operationId: getUserActivities.json
-      x-api-path-slug: useractivitiesjson-get
+      x-api-path-slug: useractivities-json-get
       responses:
         200:
           description: OK
@@ -221,7 +221,7 @@ paths:
         which corresponds to the Accept-Language header provided (or using optional
         custom distanceUnit).
       operationId: postUserActivities.json
-      x-api-path-slug: useractivitiesjson-post
+      x-api-path-slug: useractivities-json-post
       responses:
         200:
           description: OK
@@ -236,7 +236,7 @@ paths:
         entries for a given day in the format requested using units in the unit system
         which corresponds to the Accept-Language header provided.
       operationId: getUserUserActivitiesDateDate.json
-      x-api-path-slug: useruseridactivitiesdatedatejson-get
+      x-api-path-slug: useruseridactivitiesdatedate-json-get
       responses:
         200:
           description: OK
