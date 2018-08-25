@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivo
 x-kinRank: "7"
 x-alexaRank: "15894"
 tags: Activities
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pivotal Tracker
-  x-api-slug: pivotal-tracker
-  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+- name: Pivotal Tracker - Get Activities
+  x-api-slug: activities-get
+  description: Retrieves the recent activity of all your projects.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
   baseURL: https://www.pivotaltracker.com//services/v3/
@@ -25,34 +25,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/activities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/activities-get-openapi.md
-- name: Pivotal Tracker
-  x-api-slug: pivotal-tracker
-  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
+- name: Pivotal Tracker - Get Projects Project Activities
+  x-api-slug: projectsproject-idactivities-get
+  description: Retrieves the recent activity of a specific project.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
   baseURL: https://www.pivotaltracker.com//services/v3/
   tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
     Data, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/activities-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/activities-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/projectsproject-idactivities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/projectsproject-idactivities-get-openapi.md
-- name: Pivotal Tracker
-  x-api-slug: pivotal-tracker
-  description: Whether welding together two apps or forging a unique one, tap into
-    100% of the Tracker feature set with the very same API the Tracker team uses.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
-  humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3/
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/pivotal-tracker/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://pingometer.api.gallery.streamdata.io

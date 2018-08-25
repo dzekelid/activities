@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-consta
 x-kinRank: "7"
 x-alexaRank: "1364"
 tags: Activities
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Constant Contact
-  x-api-slug: constant-contact
-  description: make-constant-contacts-leading-email-and-event-marketing-services-accessible-directly-from-your-app-
+- name: Constant Contact - List Activities
+  x-api-slug: usernameactivities-get
+  description: List Activities
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
   humanURL: http://blogs.constantcontact.com
   baseURL: https://api.constantcontact.com//ws/customers/
@@ -26,30 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/usernameactivities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/usernameactivities-get-openapi.md
-- name: Constant Contact
-  x-api-slug: constant-contact
-  description: With Constant Contact, you can create effective email marketing and
-    other online marketing campaigns to meet your business goals. Start your FREE
-    trial today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
-  humanURL: http://blogs.constantcontact.com
-  baseURL: https://api.constantcontact.com//ws/customers/
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/openapi.md
-- name: ConstantContact
-  x-api-slug: constantcontact
-  description: Constant Contact, Incis an online marketing company offering email
-    marketing, social media marketing, online survey, and event marketing tools, primarily
-    to small businesses, nonprofit organizations, and membership associations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
-  humanURL: http://blogs.constantcontact.com
-  baseURL: https://api.constantcontact.com//v2
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/constantcontact/.net-sdk

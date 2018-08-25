@@ -21,47 +21,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Activities
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Pinpoint API
-  x-api-slug: aws-pinpoint-api
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
-  humanURL: https://aws.amazon.com/pinpoint/
-  baseURL: :///
-  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
-    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignidactivities-get-openapi.md
-- name: AWS Pinpoint API
-  x-api-slug: aws-pinpoint-api
-  description: Amazon Pinpoint makes it easy to run targeted campaigns to drive user
-    engagement in mobile apps. Amazon Pinpoint helps you understand user behavior,
-    define which users to target, determine which messages to send, schedule the best
-    time to deliver the messages, and then track the results of your campaign.Targeted
-    push notifications based on app usage trends and user behavior have become a popular
-    approach for mobile app user engagement because response rates are often several
-    times higher than tradition email marketing campaigns. By using targeted push
-    notifications, you can increase message relevance and effectiveness, measure engagement,
-    and continually improve your campaigns.Getting started with Amazon Pinpoint is
-    easy. First, AWS Mobile Hub guides you through the process to integrate the AWS
-    Mobile SDK with your app. Next, you define your target segments, campaign message,
-    and specify the delivery schedule. Once your campaign is running, Pinpoint provides
-    metrics so you can run analytics and track the impact of your campaign.With Amazon
-    Pinpoint, there are no upfront setup costs, and no fixed monthly cost. You only
-    pay for the number of users your campaign targets, the messages you send, and
-    the events you collect, so you can start small and scale as your application grows.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
-  humanURL: https://aws.amazon.com/pinpoint/
-  baseURL: :///
-  tags: Activities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-pinpoint/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://aws.opsworks.api.gallery.streamdata.io
