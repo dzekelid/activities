@@ -7,79 +7,145 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspa
 x-kinRank: "7"
 x-alexaRank: "4691"
 tags: Activities
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/apis.md
 specificationVersion: "0.14"
 apis:
-- name: My Space Get Activities Personid Selector Appid
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves activities created by an application.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/{personId}/{selector}/{appId}
-  tags: Activities,People,Selector,AppId
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
-- name: My Space Get Activities Supported Object Types
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves all supported object types.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/@supportedObjectTypes
-  tags: Activities,Supported,ObjectTypes
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-openapi.md
-- name: My Space Get Activities Supported Verbs
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves all supported verbs.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/@supportedVerbs
-  tags: Activities,Supported,Verbs
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-openapi.md
-- name: My Space Get Activities Supported Fields
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves all supported fields.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/@supportedFields
-  tags: Activities,Supported,Fields
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-openapi.md
-- name: My Space Post Activities Personid Self
+- name: My Space
   x-api-slug: my-space
-  description: Creates an activity for the user.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/{personId}/@self
-  tags: Activities,People,Self
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidself-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidself-post-openapi.md
-- name: My Space Get Activities Personid Selector
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves all activities for the user or for the friends of the viewer.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/activities/{personId}/{selector}
-  tags: Activities,People,Selector
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselectorappid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedobjecttypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedverbs-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiessupportedfields-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidself-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidself-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/myspace-developers/1-0activitiespersonidselector-get-postman.md
   - type: x-openapi-spec
@@ -98,6 +164,10 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+- type: x-api-gallery
+  url: http://mynewsdesk.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://myspace.developers.stack.network
 - type: x-blog
   url: http://www.myspace.com/pressroom?url=/company+blog/
 - type: x-blog-rss

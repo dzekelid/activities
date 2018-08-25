@@ -29,19 +29,6 @@ paths:
       tags:
       - Activities
       - Id.json
-  /activities.json:
-    get:
-      summary: Get Activities.json
-      description: Get a tree of all valid Fitbit public activities from the activities
-        catalog as well as private custom activities the user created in the format
-        requested. If activity has levels, also get a list of activity level details.
-      operationId: getActivities.json
-      x-api-path-slug: activities-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Activities.json
   /user/-/activities/goals/weekly.json:
     get:
       summary: Get User Activities Goals Weekly.json
@@ -198,37 +185,6 @@ paths:
       - '-'
       - Activities
       - Activity-log-id.json
-  /user/-/activities.json:
-    get:
-      summary: Get User Activities.json
-      description: Get user's activity statistics in the format requested using units
-        in the unit system which corresponds to the Accept-Language header provided.
-        Response contains both lifetime statistics from the tracker device and total
-        numbers including the manual activity log entries as seen on the Fitbit website
-        dashboard.
-      operationId: getUserActivities.json
-      x-api-path-slug: useractivities-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - '-'
-      - Activities.json
-    post:
-      summary: Post User Activities.json
-      description: Create log entry for an activity using units in the unit system
-        which corresponds to the Accept-Language header provided (or using optional
-        custom distanceUnit).
-      operationId: postUserActivities.json
-      x-api-path-slug: useractivities-json-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - '-'
-      - Activities.json
   /user/{user-id}/activities/date/{date}.json:
     get:
       summary: Get User User Activities Date Date .json
@@ -246,4 +202,17 @@ paths:
       - Activities
       - Date
       - Date.json
+  /activities.json:
+    get:
+      summary: Get Activities.json
+      description: Get a tree of all valid Fitbit public activities from the activities
+        catalog as well as private custom activities the user created in the format
+        requested. If activity has levels, also get a list of activity level details.
+      operationId: getActivities.json
+      x-api-path-slug: activities-json-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Activities.json
 ---

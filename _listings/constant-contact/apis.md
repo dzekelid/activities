@@ -7,18 +7,20 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-consta
 x-kinRank: "7"
 x-alexaRank: "1364"
 tags: Activities
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Constant Contact List Activities
+- name: Constant Contact
   x-api-slug: constant-contact
-  description: List Activities
+  description: make-constant-contacts-leading-email-and-event-marketing-services-accessible-directly-from-your-app-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
   humanURL: http://blogs.constantcontact.com
-  baseURL: https://api.constantcontact.com//ws/customers///{username}/activities
-  tags: List,Activities
+  baseURL: https://api.constantcontact.com//ws/customers/
+  tags: Social Media Marketing, Email Marketing, CRM, Federal Government, Federal
+    Government, Federal Government, Federal Government, Getting Started Example, SaaS,
+    Technology, API Provider, Surveys, Emails, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/usernameactivities-get-postman.md
@@ -36,9 +38,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/openapi.md
+- name: ConstantContact
+  x-api-slug: constantcontact
+  description: Constant Contact, Incis an online marketing company offering email
+    marketing, social media marketing, online survey, and event marketing tools, primarily
+    to small businesses, nonprofit organizations, and membership associations.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg
+  humanURL: http://blogs.constantcontact.com
+  baseURL: https://api.constantcontact.com//v2
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/constant-contact/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/constantcontact/.net-sdk
+- type: x-api-gallery
+  url: http://compile.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://constant.contact.stack.network
 - type: x-authentication
   url: http://developer.constantcontact.com/docs/authentication/authentication.html
 - type: x-base

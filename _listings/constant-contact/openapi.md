@@ -3,31 +3,16 @@ swagger: "2.0"
 x-collection-name: Constant Contact
 x-complete: 1
 info:
-  title: Constant Contact
-  description: make-constant-contacts-leading-email-and-event-marketing-services-accessible-directly-from-your-app-
+  title: ConstantContact
+  description: constant-contact-inc-is-an-online-marketing-company-offering-email-marketing-social-media-marketing-online-survey-and-event-marketing-tools-primarily-to-small-businesses-nonprofit-organizations-and-membership-associations-
+  termsOfService: http://www.constantcontact.com/uidocs/CCSiteOwnerAgreement.jsp
   version: 1.0.0
 host: api.constantcontact.com
-basePath: /ws/customers/
+basePath: /v2
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
-paths:
-  /{username}/activities:
-    get:
-      summary: List Activities
-      description: List Activities
-      operationId: list-activities
-      x-api-path-slug: usernameactivities-get
-      parameters:
-      - in: path
-        name: username
-      responses:
-        200:
-          description: OK
-      tags:
-      - List
-      - Activities
 ---

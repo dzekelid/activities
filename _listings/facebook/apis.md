@@ -7,18 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Activities
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get User Activities
+- name: Facebook
   x-api-slug: facebook
-  description: The activities listed on the user's profile
+  description: connect-to-the-social-network-with-the-graph-api-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
   humanURL: http:///business
-  baseURL: https://graph.facebook.com////{user}/activities
-  tags: User,Activities
+  baseURL: https://graph.facebook.com//
+  tags: Social, My API Stack, Indie EdTech Data Jam, Issues Example, Facebook Stack,
+    Stack Network, Stack, internet, Technology, Mobile, API Provider, Social, Social
+    Networks, Profiles, Payments, General Data, Relative Data, Pedestal, Historical
+    Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/useractivities-get-postman.md
@@ -35,9 +38,112 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Conversation Messages (stream)
+  x-api-slug: facebook-get-conversation-messages-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Group Feed (stream)
+  x-api-slug: facebook-get-group-feed-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Life Event (stream)
+  x-api-slug: facebook-get-life-event-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Live Veo (stream)
+  x-api-slug: facebook-get-live-veo-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Message Shares (stream)
+  x-api-slug: facebook-get-message-shares-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Object Comments (stream)
+  x-api-slug: facebook-get-object-comments-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get Object Likes (stream)
+  x-api-slug: facebook-get-object-likes-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get User Conversations (stream)
+  x-api-slug: facebook-get-user-conversations-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
+- name: Facebook Get User Photos (stream)
+  x-api-slug: facebook-get-user-photos-stream
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https:///
+  tags: Activities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
+- type: x-api-gallery
+  url: http://expedia.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://facebook.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/facebook/apidescription?format=internal&ver=1386216190000
 - type: x-application-gallery

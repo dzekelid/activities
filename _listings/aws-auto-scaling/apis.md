@@ -13,19 +13,20 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Activities
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Auto Scaling API Describe Scaling Activities
+- name: AWS Auto Scaling API
   x-api-slug: aws-auto-scaling-api
-  description: Describes one or more scaling activities for the specified Auto Scaling
-    group.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
-  baseURL: ://///?Action=DescribeScalingActivities
-  tags: Scaling Activities
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Performance, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/actiondescribescalingactivities-get-openapi.md
@@ -47,6 +48,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/aws-auto-scaling/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.appstream.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.auto.scaling.stack.network
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
 - type: x-change-log

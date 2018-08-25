@@ -12,56 +12,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Activities
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Mota Word Get a list of realtime activities.
+- name: Mota Word
   x-api-slug: mota-word
-  description: Get a list of realtime activities on the project, such as translation
-    suggestion and translation approval.
+  description: use-motaword-api-to-post-and-track-your-translation-projects-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
   humanURL: http://www.motaword.com
-  baseURL: https://api.motaword.com////projects/{projectId}/activities
-  tags: Projects,ProjectId,Activities
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-openapi.md
-- name: Mota Word Get a single realtime activity.
+- name: Mota Word
   x-api-slug: mota-word
-  description: Get a single realtime activity..
+  description: use-motaword-api-to-post-and-track-your-translation-projects-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
   humanURL: http://www.motaword.com
-  baseURL: https://api.motaword.com////projects/{projectId}/activities/{activityId}
-  tags: Projects,ProjectId,Activities,ActivityId
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-openapi.md
-- name: Mota Word Submit a comment to an activity.
+- name: Mota Word
   x-api-slug: mota-word
-  description: Submit a comment to an activity..
+  description: use-motaword-api-to-post-and-track-your-translation-projects-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
   humanURL: http://www.motaword.com
-  baseURL: https://api.motaword.com////projects/{projectId}/activities/{activityId}
-  tags: Projects,ProjectId,Activities,ActivityId
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-post-openapi.md
-- name: Mota Word Get a list of comments belonging to this activity.
+- name: Mota Word
   x-api-slug: mota-word
-  description: Get a list of comments belonging to this activity..
+  description: use-motaword-api-to-post-and-track-your-translation-projects-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
   humanURL: http://www.motaword.com
-  baseURL: https://api.motaword.com////projects/{projectId}/activities/{activityId}/comments
-  tags: Projects,ProjectId,Activities,ActivityId,Comments
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivities-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityid-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/motaword/projectsprojectidactivitiesactivityidcomments-get-postman.md
   - type: x-openapi-spec
@@ -85,6 +108,10 @@ apis:
 x-common:
 - type: x-website
   url: http://www.motaword.com
+- type: x-api-gallery
+  url: http://moltin.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://motaword.stack.network
 - type: x-blog
   url: https://www.motaword.com/developer/blog
 - type: x-developer
