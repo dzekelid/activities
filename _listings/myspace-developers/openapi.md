@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: MySpace Developers
 x-complete: 1
@@ -211,4 +210,3 @@ paths:
       - Activities
       - People
       - Selector
----

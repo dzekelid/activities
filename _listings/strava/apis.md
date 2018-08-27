@@ -7,11 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-stra
 x-kinRank: "7"
 x-alexaRank: "887"
 tags: Activities
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/strava/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Strava API v3 - List Athlete Activities
+  x-api-slug: athleteactivities-get
+  description: Returns the activities of an athlete for a specific identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/strava/athleteactivities-get-openapi.md
+- name: Strava API v3 - List Club Activities
+  x-api-slug: clubsidactivities-get
+  description: Retrieve recent activities from members of a specific club. The authenticated
+    athlete must belong to the requested club in order to hit this endpoint. Pagination
+    is supported. Enhanced Privacy Mode is respected for all activities.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28739-strava.jpg
+  humanURL: ""
+  baseURL: https://www.strava.com//api/v3
+  tags: Mobile, Technology, internet, Sports, Athletes, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/activities/master/_listings/strava/clubsidactivities-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://storecove.api.gallery.streamdata.io
